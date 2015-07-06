@@ -1,0 +1,306 @@
+../trained
+├── bs30-sl200
+│   ├── lm_lstm_epoch0.65_1.4035.t7
+│   ├── lm_lstm_epoch0.65_2.9610.t7
+│   ├── lm_lstm_epoch10.32_1.1139.t7
+│   ├── lm_lstm_epoch10.97_1.1016.t7
+│   ├── lm_lstm_epoch11.61_1.0839.t7
+│   ├── lm_lstm_epoch12.26_1.0830.t7
+│   ├── lm_lstm_epoch12.90_1.0911.t7
+│   ├── lm_lstm_epoch1.29_1.3632.t7
+│   ├── lm_lstm_epoch1.29_2.4941.t7
+│   ├── lm_lstm_epoch13.55_1.0692.t7
+│   ├── lm_lstm_epoch14.19_1.0680.t7
+│   ├── lm_lstm_epoch14.84_1.0649.t7
+│   ├── lm_lstm_epoch15.48_1.0532.t7
+│   ├── lm_lstm_epoch16.13_1.0507.t7
+│   ├── lm_lstm_epoch16.77_1.0447.t7
+│   ├── lm_lstm_epoch17.42_1.0503.t7
+│   ├── lm_lstm_epoch18.06_1.0407.t7
+│   ├── lm_lstm_epoch18.71_1.0389.t7
+│   ├── lm_lstm_epoch19.35_1.0344.t7
+│   ├── lm_lstm_epoch1.94_1.3339.t7
+│   ├── lm_lstm_epoch1.94_2.2029.t7
+│   ├── lm_lstm_epoch20.00_1.0301.t7
+│   ├── lm_lstm_epoch20.65_1.0330.t7
+│   ├── lm_lstm_epoch21.29_1.0269.t7
+│   ├── lm_lstm_epoch21.94_1.0286.t7
+│   ├── lm_lstm_epoch22.58_1.0202.t7
+│   ├── lm_lstm_epoch23.23_1.0212.t7
+│   ├── lm_lstm_epoch23.87_1.0266.t7
+│   ├── lm_lstm_epoch24.52_1.0174.t7
+│   ├── lm_lstm_epoch25.16_1.0185.t7
+│   ├── lm_lstm_epoch25.81_1.0192.t7
+│   ├── lm_lstm_epoch2.58_1.3124.t7
+│   ├── lm_lstm_epoch2.58_2.0602.t7
+│   ├── lm_lstm_epoch26.45_1.0159.t7
+│   ├── lm_lstm_epoch27.10_1.0151.t7
+│   ├── lm_lstm_epoch27.74_1.0171.t7
+│   ├── lm_lstm_epoch28.39_1.0228.t7
+│   ├── lm_lstm_epoch29.03_1.0138.t7
+│   ├── lm_lstm_epoch29.68_1.0168.t7
+│   ├── lm_lstm_epoch30.32_1.0184.t7
+│   ├── lm_lstm_epoch30.97_1.0199.t7
+│   ├── lm_lstm_epoch3.23_1.2783.t7
+│   ├── lm_lstm_epoch3.23_1.8987.t7
+│   ├── lm_lstm_epoch3.87_1.2532.t7
+│   ├── lm_lstm_epoch3.87_1.7963.t7
+│   ├── lm_lstm_epoch4.52_1.2258.t7
+│   ├── lm_lstm_epoch4.52_1.6863.t7
+│   ├── lm_lstm_epoch5.16_1.2102.t7
+│   ├── lm_lstm_epoch5.16_1.6204.t7
+│   ├── lm_lstm_epoch5.81_1.1940.t7
+│   ├── lm_lstm_epoch5.81_1.5621.t7
+│   ├── lm_lstm_epoch6.45_1.1752.t7
+│   ├── lm_lstm_epoch6.45_1.5089.t7
+│   ├── lm_lstm_epoch7.10_1.1552.t7
+│   ├── lm_lstm_epoch7.10_1.4751.t7
+│   ├── lm_lstm_epoch7.74_1.1486.t7
+│   ├── lm_lstm_epoch8.39_1.1510.t7
+│   ├── lm_lstm_epoch9.03_1.1231.t7
+│   └── lm_lstm_epoch9.68_1.1133.t7
+├── locations-only_no-other-worlds
+│   ├── bs10-sl20
+│   │   ├── lm_lstm_epoch18.87_1.9617.t7
+│   │   ├── lm_lstm_epoch28.30_2.2346.t7
+│   │   ├── lm_lstm_epoch37.74_2.3953.t7
+│   │   ├── lm_lstm_epoch47.17_2.6017.t7
+│   │   ├── lm_lstm_epoch50.00_2.6450.t7
+│   │   ├── lm_lstm_epoch50.00_2.9183.t7
+│   │   └── lm_lstm_epoch9.43_1.8917.t7
+│   ├── bs10-sl200
+│   │   ├── lm_lstm_epoch0.01_3.4696.t7
+│   │   ├── lm_lstm_epoch0.09_3.1554.t7
+│   │   ├── lm_lstm_epoch0.18_3.1448.t7
+│   │   ├── lm_lstm_epoch0.28_3.0899.t7
+│   │   ├── lm_lstm_epoch0.37_2.9289.t7
+│   │   ├── lm_lstm_epoch0.46_2.7327.t7
+│   │   ├── lm_lstm_epoch0.55_2.5734.t7
+│   │   ├── lm_lstm_epoch0.64_2.4474.t7
+│   │   ├── lm_lstm_epoch0.73_2.3640.t7
+│   │   ├── lm_lstm_epoch0.83_2.2813.t7
+│   │   ├── lm_lstm_epoch0.92_1.1607.t7
+│   │   ├── lm_lstm_epoch0.92_1.2838.t7
+│   │   ├── lm_lstm_epoch0.92_2.2213.t7
+│   │   ├── lm_lstm_epoch10.09_1.1996.t7
+│   │   ├── lm_lstm_epoch1.01_2.1690.t7
+│   │   ├── lm_lstm_epoch11.01_1.1932.t7
+│   │   ├── lm_lstm_epoch1.10_2.1132.t7
+│   │   ├── lm_lstm_epoch1.19_2.0717.t7
+│   │   ├── lm_lstm_epoch11.93_1.2223.t7
+│   │   ├── lm_lstm_epoch1.28_2.0105.t7
+│   │   ├── lm_lstm_epoch12.84_1.2202.t7
+│   │   ├── lm_lstm_epoch13.76_1.2567.t7
+│   │   ├── lm_lstm_epoch1.38_1.9726.t7
+│   │   ├── lm_lstm_epoch14.68_1.2623.t7
+│   │   ├── lm_lstm_epoch1.47_1.9830.t7
+│   │   ├── lm_lstm_epoch15.60_1.2582.t7
+│   │   ├── lm_lstm_epoch1.56_1.9070.t7
+│   │   ├── lm_lstm_epoch16.51_1.2832.t7
+│   │   ├── lm_lstm_epoch1.65_1.8786.t7
+│   │   ├── lm_lstm_epoch1.74_1.8404.t7
+│   │   ├── lm_lstm_epoch17.43_1.2849.t7
+│   │   ├── lm_lstm_epoch1.83_1.1639.t7
+│   │   ├── lm_lstm_epoch1.83_1.2558.t7
+│   │   ├── lm_lstm_epoch1.83_1.8240.t7
+│   │   ├── lm_lstm_epoch18.35_1.3108.t7
+│   │   ├── lm_lstm_epoch19.27_1.3483.t7
+│   │   ├── lm_lstm_epoch1.93_1.7867.t7
+│   │   ├── lm_lstm_epoch20.18_1.3512.t7
+│   │   ├── lm_lstm_epoch2.02_1.7629.t7
+│   │   ├── lm_lstm_epoch21.10_1.3052.t7
+│   │   ├── lm_lstm_epoch2.11_1.7342.t7
+│   │   ├── lm_lstm_epoch2.20_1.7255.t7
+│   │   ├── lm_lstm_epoch22.02_1.2909.t7
+│   │   ├── lm_lstm_epoch2.29_1.6953.t7
+│   │   ├── lm_lstm_epoch22.94_1.3196.t7
+│   │   ├── lm_lstm_epoch23.85_1.3216.t7
+│   │   ├── lm_lstm_epoch2.39_1.6934.t7
+│   │   ├── lm_lstm_epoch24.77_1.3479.t7
+│   │   ├── lm_lstm_epoch2.48_1.6421.t7
+│   │   ├── lm_lstm_epoch25.69_1.3629.t7
+│   │   ├── lm_lstm_epoch2.57_1.6335.t7
+│   │   ├── lm_lstm_epoch26.61_1.3572.t7
+│   │   ├── lm_lstm_epoch2.66_1.6635.t7
+│   │   ├── lm_lstm_epoch2.75_1.1831.t7
+│   │   ├── lm_lstm_epoch2.75_1.2329.t7
+│   │   ├── lm_lstm_epoch2.75_1.6054.t7
+│   │   ├── lm_lstm_epoch27.52_1.3713.t7
+│   │   ├── lm_lstm_epoch2.84_1.5955.t7
+│   │   ├── lm_lstm_epoch28.44_1.3797.t7
+│   │   ├── lm_lstm_epoch29.36_1.3905.t7
+│   │   ├── lm_lstm_epoch2.94_1.5736.t7
+│   │   ├── lm_lstm_epoch30.28_1.4333.t7
+│   │   ├── lm_lstm_epoch3.03_1.5526.t7
+│   │   ├── lm_lstm_epoch31.19_1.4392.t7
+│   │   ├── lm_lstm_epoch3.12_1.5309.t7
+│   │   ├── lm_lstm_epoch32.11_1.3855.t7
+│   │   ├── lm_lstm_epoch3.21_1.5586.t7
+│   │   ├── lm_lstm_epoch3.30_1.5288.t7
+│   │   ├── lm_lstm_epoch33.03_1.3746.t7
+│   │   ├── lm_lstm_epoch3.39_1.5318.t7
+│   │   ├── lm_lstm_epoch33.94_1.4108.t7
+│   │   ├── lm_lstm_epoch34.86_1.4150.t7
+│   │   ├── lm_lstm_epoch3.49_1.5066.t7
+│   │   ├── lm_lstm_epoch3.58_1.4973.t7
+│   │   ├── lm_lstm_epoch3.67_1.1836.t7
+│   │   ├── lm_lstm_epoch3.67_1.2162.t7
+│   │   ├── lm_lstm_epoch3.67_1.4963.t7
+│   │   ├── lm_lstm_epoch3.76_1.4664.t7
+│   │   ├── lm_lstm_epoch3.85_1.4643.t7
+│   │   ├── lm_lstm_epoch3.94_1.4652.t7
+│   │   ├── lm_lstm_epoch4.04_1.4323.t7
+│   │   ├── lm_lstm_epoch4.13_1.4155.t7
+│   │   ├── lm_lstm_epoch4.22_1.4305.t7
+│   │   ├── lm_lstm_epoch4.31_1.4166.t7
+│   │   ├── lm_lstm_epoch4.40_1.3991.t7
+│   │   ├── lm_lstm_epoch4.50_1.3954.t7
+│   │   ├── lm_lstm_epoch4.59_1.1890.t7
+│   │   ├── lm_lstm_epoch4.59_1.2010.t7
+│   │   ├── lm_lstm_epoch4.59_1.3975.t7
+│   │   ├── lm_lstm_epoch4.68_1.3857.t7
+│   │   ├── lm_lstm_epoch4.77_1.3690.t7
+│   │   ├── lm_lstm_epoch4.86_1.3821.t7
+│   │   ├── lm_lstm_epoch4.95_1.3721.t7
+│   │   ├── lm_lstm_epoch5.05_1.3504.t7
+│   │   ├── lm_lstm_epoch5.14_1.3452.t7
+│   │   ├── lm_lstm_epoch5.23_1.3705.t7
+│   │   ├── lm_lstm_epoch5.32_1.3466.t7
+│   │   ├── lm_lstm_epoch5.41_1.3397.t7
+│   │   ├── lm_lstm_epoch5.50_1.1924.t7
+│   │   ├── lm_lstm_epoch5.50_1.1961.t7
+│   │   ├── lm_lstm_epoch6.42_1.1860.t7
+│   │   ├── lm_lstm_epoch6.42_1.1993.t7
+│   │   ├── lm_lstm_epoch7.34_1.1939.t7
+│   │   ├── lm_lstm_epoch7.34_1.2186.t7
+│   │   ├── lm_lstm_epoch8.26_1.2062.t7
+│   │   ├── lm_lstm_epoch8.26_1.2361.t7
+│   │   └── lm_lstm_epoch9.17_1.2437.t7
+│   ├── bs50-sl50
+│   │   ├── lm_lstm_epoch1.15_2.2470.t7
+│   │   ├── lm_lstm_epoch2.30_1.8298.t7
+│   │   └── lm_lstm_epoch3.45_1.6115.t7
+│   ├── double_bs10-sl200_bs8-sl120
+│   │   ├── lm_lstm_epoch0.44_0.9740.t7
+│   │   ├── lm_lstm_epoch0.88_0.9817.t7
+│   │   ├── lm_lstm_epoch1.32_0.9619.t7
+│   │   └── lm_lstm_epoch1.76_0.9704.t7
+│   └── opencl_bs300-sl50
+│       ├── lm_lstm_epoch0.10_nan.t7
+│       ├── lm_lstm_epoch0.19_nan.t7
+│       └── lm_lstm_epoch0.29_nan.t7
+├── situations
+│   └── bs30-sl120
+│       ├── lm_lstm_epoch0.83_3.0699.t7
+│       ├── lm_lstm_epoch10.00_1.6756.t7
+│       ├── lm_lstm_epoch10.83_1.6374.t7
+│       ├── lm_lstm_epoch11.67_1.6066.t7
+│       ├── lm_lstm_epoch12.50_1.5839.t7
+│       ├── lm_lstm_epoch13.33_1.5594.t7
+│       ├── lm_lstm_epoch14.17_1.5385.t7
+│       ├── lm_lstm_epoch15.00_1.5084.t7
+│       ├── lm_lstm_epoch15.83_1.4965.t7
+│       ├── lm_lstm_epoch16.67_1.4837.t7
+│       ├── lm_lstm_epoch1.67_2.6761.t7
+│       ├── lm_lstm_epoch17.50_1.4696.t7
+│       ├── lm_lstm_epoch18.33_1.4609.t7
+│       ├── lm_lstm_epoch19.17_1.4469.t7
+│       ├── lm_lstm_epoch20.00_1.4378.t7
+│       ├── lm_lstm_epoch20.83_1.4294.t7
+│       ├── lm_lstm_epoch21.67_1.4280.t7
+│       ├── lm_lstm_epoch22.50_1.4180.t7
+│       ├── lm_lstm_epoch23.33_1.4170.t7
+│       ├── lm_lstm_epoch24.17_1.4114.t7
+│       ├── lm_lstm_epoch25.00_1.3996.t7
+│       ├── lm_lstm_epoch2.50_2.4047.t7
+│       ├── lm_lstm_epoch25.83_1.3961.t7
+│       ├── lm_lstm_epoch26.67_1.4041.t7
+│       ├── lm_lstm_epoch27.50_1.3929.t7
+│       ├── lm_lstm_epoch28.33_1.3988.t7
+│       ├── lm_lstm_epoch29.17_1.3997.t7
+│       ├── lm_lstm_epoch30.00_1.3927.t7
+│       ├── lm_lstm_epoch3.33_2.2040.t7
+│       ├── lm_lstm_epoch4.17_2.0923.t7
+│       ├── lm_lstm_epoch5.00_2.0036.t7
+│       ├── lm_lstm_epoch5.83_1.9297.t7
+│       ├── lm_lstm_epoch6.67_1.8698.t7
+│       ├── lm_lstm_epoch7.50_1.8193.t7
+│       ├── lm_lstm_epoch8.33_1.7686.t7
+│       └── lm_lstm_epoch9.17_1.7224.t7
+└── transformed
+    └── bs30-sl200
+        ├── lm_lstm_epoch0.69_3.1694.t7
+        ├── lm_lstm_epoch10.34_1.4043.t7
+        ├── lm_lstm_epoch11.03_1.3730.t7
+        ├── lm_lstm_epoch11.72_1.3497.t7
+        ├── lm_lstm_epoch12.41_1.3357.t7
+        ├── lm_lstm_epoch13.10_1.3175.t7
+        ├── lm_lstm_epoch13.79_1.2909.t7
+        ├── lm_lstm_epoch1.38_2.6928.t7
+        ├── lm_lstm_epoch14.48_1.2777.t7
+        ├── lm_lstm_epoch15.17_1.2707.t7
+        ├── lm_lstm_epoch15.86_1.2661.t7
+        ├── lm_lstm_epoch16.55_1.2457.t7
+        ├── lm_lstm_epoch17.24_1.2360.t7
+        ├── lm_lstm_epoch17.93_1.2243.t7
+        ├── lm_lstm_epoch18.62_1.2262.t7
+        ├── lm_lstm_epoch19.31_1.2106.t7
+        ├── lm_lstm_epoch20.00_1.2055.t7
+        ├── lm_lstm_epoch20.69_1.1963.t7
+        ├── lm_lstm_epoch2.07_2.3918.t7
+        ├── lm_lstm_epoch21.38_1.1883.t7
+        ├── lm_lstm_epoch22.07_1.1838.t7
+        ├── lm_lstm_epoch22.76_1.1796.t7
+        ├── lm_lstm_epoch23.45_1.1773.t7
+        ├── lm_lstm_epoch24.14_1.1748.t7
+        ├── lm_lstm_epoch24.83_1.1731.t7
+        ├── lm_lstm_epoch25.52_1.1682.t7
+        ├── lm_lstm_epoch26.21_1.1643.t7
+        ├── lm_lstm_epoch26.90_1.1600.t7
+        ├── lm_lstm_epoch27.59_1.1553.t7
+        ├── lm_lstm_epoch2.76_2.1962.t7
+        ├── lm_lstm_epoch28.28_1.1609.t7
+        ├── lm_lstm_epoch28.97_1.1568.t7
+        ├── lm_lstm_epoch29.66_1.1512.t7
+        ├── lm_lstm_epoch30.34_1.1494.t7
+        ├── lm_lstm_epoch31.03_1.1484.t7
+        ├── lm_lstm_epoch31.72_1.1488.t7
+        ├── lm_lstm_epoch32.41_1.1473.t7
+        ├── lm_lstm_epoch33.10_1.1440.t7
+        ├── lm_lstm_epoch33.79_1.1446.t7
+        ├── lm_lstm_epoch34.48_1.1422.t7
+        ├── lm_lstm_epoch3.45_2.0448.t7
+        ├── lm_lstm_epoch35.17_1.1442.t7
+        ├── lm_lstm_epoch35.86_1.1454.t7
+        ├── lm_lstm_epoch36.55_1.1407.t7
+        ├── lm_lstm_epoch37.24_1.1463.t7
+        ├── lm_lstm_epoch37.93_1.1399.t7
+        ├── lm_lstm_epoch38.62_1.1429.t7
+        ├── lm_lstm_epoch39.31_1.1398.t7
+        ├── lm_lstm_epoch40.00_1.1414.t7
+        ├── lm_lstm_epoch40.69_1.1467.t7
+        ├── lm_lstm_epoch41.38_1.1378.t7
+        ├── lm_lstm_epoch4.14_1.9095.t7
+        ├── lm_lstm_epoch42.07_1.1399.t7
+        ├── lm_lstm_epoch42.76_1.1446.t7
+        ├── lm_lstm_epoch43.45_1.1384.t7
+        ├── lm_lstm_epoch44.14_1.1438.t7
+        ├── lm_lstm_epoch44.83_1.1416.t7
+        ├── lm_lstm_epoch45.52_1.1425.t7
+        ├── lm_lstm_epoch46.21_1.1429.t7
+        ├── lm_lstm_epoch46.90_1.1414.t7
+        ├── lm_lstm_epoch47.59_1.1393.t7
+        ├── lm_lstm_epoch48.28_1.1431.t7
+        ├── lm_lstm_epoch4.83_1.8282.t7
+        ├── lm_lstm_epoch48.97_1.1451.t7
+        ├── lm_lstm_epoch49.66_1.1447.t7
+        ├── lm_lstm_epoch50.00_1.1438.t7
+        ├── lm_lstm_epoch5.52_1.7461.t7
+        ├── lm_lstm_epoch6.21_1.6745.t7
+        ├── lm_lstm_epoch6.90_1.6078.t7
+        ├── lm_lstm_epoch7.59_1.5563.t7
+        ├── lm_lstm_epoch8.28_1.5120.t7
+        ├── lm_lstm_epoch8.97_1.4728.t7
+        └── lm_lstm_epoch9.66_1.4348.t7
+
+11 directories, 292 files

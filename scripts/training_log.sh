@@ -1,0 +1,1 @@
+tree  ../trained > ../Trained.txt
