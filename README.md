@@ -109,7 +109,6 @@ See the Trained.txt file for validation losses with multiple setups.
 
 Situation generation + random check + primed generation
 
-
 	┌─[centime@centime-arch]-[~/projets/arkham/scripts]
 	└───╼ python3 situ_sampler.py ../trained/situations/bs30-sl120/lm_lstm_epoch7.27_1.2093.t7 ../trained/bs30-sl200/lm_lstm_epoch29.03_1.0138.t7 5 0.6 0.6 logs
 
@@ -168,4 +167,3 @@ Situation generation + random check + primed generation
 	------------------------
 	Edit rating with the following syntax: id1:rating1 id2:rating2 ...
 	60:8 59:8 57:7 56:9 55:9 54:8 53:8 51:9
-
