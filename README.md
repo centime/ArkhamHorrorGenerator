@@ -70,6 +70,14 @@ See http://karpathy.github.io/2015/05/21/rnn-effectiveness/ and https://github.c
 
 Sampling
 ========
+	
+	# situ_sampler.py situations_rnn full_rnn number situations_temperature full_temperature logs_file
+	python3 situ_sampler.py ../trained/situations/bs30-sl120/lm_lstm_epoch7.27_1.2093.t7 ../trained/bs30-sl200/lm_lstm_epoch29.03_1.0138.t7 5 0.6 0.6 logs
+
+	# log_manager.py logs_file [reverse]
+	python3 log_manager.py logs
+
+Older scripts
 
 	# python3 sampler.py path_to_file approx_number_of_samples temperature [expand]	
 	# Example:
@@ -78,15 +86,17 @@ Sampling
 	# Get samples and reverse the transforms
 	python3 sampler.py ../trained/transformed/bs30-sl200/lm_lstm_epoch41.38_1.1378.t7 6 0.7 expand
 
+
+
 Roadmap
 =======
 
 Randomly ordered :
-
+	
+	- Shuffle dataset prior to training (cuz of a lacking chr-rnn feature regarding init_from)
 	- Situations classification (Which test/challenge is the most suited ?)
 	- size_rnn, layers, ...
 	- Parallela
-	- Interactive evaluation of outputs ("This one result was really good, better add it to the dataset")
 	- Use the HPL dataset
 	- Code cleaning / refactors
 	- Transforms ?
@@ -99,31 +109,63 @@ See the Trained.txt file for validation losses with multiple setups.
 
 Situation generation + random check + primed generation
 
-	└───╼ python3 situ_sampler.py ../trained/situations/bs30-sl120/lm_lstm_epoch2.47_1.2227.t7 ../trained/bs30-sl200/lm_lstm_epoch29.03_1.0138.t7 5 0.4 0.5 
-	-
-	Although it is strange the water surface. You may Make a Sneak (+1) check to find a small concessing a creature. If you pass, gain 1 Unique Item.
-	-
-	The shopkeeper are return to the cart of the workers and you are not could be a longing of the cratter and the corner of the price. If you accept, Make a Sneak (+2) check to receive them off the professor all equating and gain 2 Clue tokens. If you fail, you are delayed.
-	-
-	The more the books of the coniate your cell wall out the other Sitting of the revierd. Make a Will (+2) check. If you pass, you may search the Unique Item deck. If you fail, lose 1 Stamina.
-	-
-	A monster appears! Make a Speed (+1) check to take it.
-	-
-	A monster appear! Make a Lore (+2) check. If you pass, you gain 1 Clue token.
-	-
-	A strange changer from the darkness he seen your head to the wind the gravey are to purpon to the ground. Make a Sneak (+1) check to see if there are in the strange pate. If you pass, gain 1 Clue token.
 
 	┌─[centime@centime-arch]-[~/projets/arkham/scripts]
-	└───╼ python3 situ_sampler.py ../trained/situations/bs30-sl120/lm_lstm_epoch2.47_1.2227.t7 ../trained/bs30-sl200/lm_lstm_epoch29.03_1.0138.t7 5 0.4 0.5
-	-
-	As you browse the door to the rock to the book and a musture of the workers who challenges you a ride and have to hear the table remains to the door and a monster appear! Make a Fight (+2) check. If you pass, you see a musty pass a -1 ob eith the mostled cooticite. If you pass, gain 1 Common Item. If you fail, you are delayed.
-	-
-	You are winded to the box of the ancient his begin to stay to the water. If you accept, Make a Will (+0) check to convince the walls. If you pass, lose 1 Stamina.
-	-
-	The ciff on the walls are entructing your eyes you a ride and then return to be offers. Make a Lore (+2) check to interpret them.
-	-
-	A terrible shadow several monster appears and the water are where you are in a conce of a strange she to see a strange boy to the wind the water. If you do so, Make a Speed (+1) check to gain 1 Sanity and 1 Stamina.
+	└───╼ python3 situ_sampler.py ../trained/situations/bs30-sl120/lm_lstm_epoch7.27_1.2093.t7 ../trained/bs30-sl200/lm_lstm_epoch29.03_1.0138.t7 5 0.6 0.6 logs
 
+	[0] Spying as offiring stone. Make a Lore (+2) check. If you fail, you are delayed
 
+	[1] You find a man painting the walls to you. Make a Speed (+2) check or lose 2 Stamina
 
+	[2] A beasing seems to have salence. Make a Luck (+1) check. If you pass, you lose all of your more suspering and comes up to you. Take his Ally card if it's available. If it is not, draw 1 Spell, the to close an explain and leave you and return to Arkham
+
+	[3] A concearly goation monater Michaoling the golden sight, you come across a givel on an ancient trat. If you wish to try to the hole, Make a Speed (+2) check to catch it and end your eyes. If you fail, lose 3 Stamina. Draw 1 Spell. If you fail, you realize that you are blood the darkness. On a successes you into the shack, points. You may discard 1 Spell
+
+	[4] The money ensulb, but the face light now just on the traintly standing up. Make a Fight (+1) check. If you fail, you may draw a monster from the top of the chospures. If you fail, lose 2 Sanity
+
+	[5] The minstwole investigating the oceatator, the locals has thought. Make a Fight (+2) check. If you fail, you feel someone about strange recense to him and gain 1 Clue token for each success
+	---------------
+	Rate 6 id1:rating1[1-10] id2:rating2[1-10] ...
+	0:10 1:10 2:8 3:0 4:7 5:5
+
+	┌─[centime@centime-arch]-[~/projets/arkham/scripts]
+	└───╼ python3 log_manager.py logs
+
+	[...]
+
+	[47] 9 : During the night, and he takes a lith of your boods. Make a Lore (+1) check and gain 1 Clue token for each success.
+
+	[48] 9 : An unruly gang have dropting that you have to take a sacrifice. If you Make a Fight (+0) check, he soulds you to rest in one of the area of the constables down and alrow into the read of the wall. Pass a Will (1) check or lose 2 Stamina
+
+	[49] 9 : A terrible shadow several monster appears and the water are where you are in a conce of a strange she to see a strange boy to the wind the water. If you do so, Make a Speed (+1) check to gain 1 Sanity and 1 Stamina.
+
+	[50] 9 : One of the wooden down the constrates are seems to be a bad idently. Make a Speed (+0) check or lose 1 Stamina
+
+	[51] 10 : The conions man throws open the door and walks out to as that stops of the shadows. Make a Sneak (+0) check. If you pass, gain 1 Unique Item.
+
+	[52] 10 : A monster appear! Make a Lore (+2) check. If you pass, you gain 1 Clue token.
+
+	[53] 10 : Although it is strange the water surface. You may Make a Sneak (+1) check to find a small concessing a creature. If you pass, gain 1 Unique Item.
+
+	[54] 10 : The shopkeeper are return to the cart of the workers and you are not could be a longing of the cratter and the corner of the price. If you accept, Make a Sneak (+2) check to receive them off the professor all equating and gain 2 Clue tokens. If you fail, you are delayed.
+
+	[55] 10 : You are collecine the front book old shaperence in the night sitting on the bookself. Make a Lore (+1) check. If you pass, you may then draw a Spell and you are delayed
+
+	[56] 10 : The constables are seen makes a visit steence that the beam gons placus and pulls you into its are professing sense. Make a Sneak (+2) check and gain 1 Clue token. If you fail, you are reduced to 1 Sanity and 1 Stamina
+
+	[57] 10 : A terrible monster appears! Make a Speed (+2) check to reach the book is covered in the church
+
+	[58] 10 : A young store in the wall in the Dreamlands. Make a Luck (+2) check and gain a Retainer card
+
+	[59] 10 : A weathered man inside the trile of patch is scaries this to come. Make a Fight (+0) check or you are delayed
+
+	[60] 10 : retrieve it, you see a tusses of those of a strange decidet. If you ignore it, Make a Luck (+0) check to try to return to Arkham. If you fail, roll a die and gain 1 Clue tokens
+
+	[61] 10 : Spying as offiring stone. Make a Lore (+2) check. If you fail, you are delayed
+
+	[62] 10 : You find a man painting the walls to you. Make a Speed (+2) check or lose 2 Stamina
+
+	------------------------
+	Edit rating with the following syntax: id1:rating1 id2:rating2 ...
+	60:8 59:8 57:7 56:9 55:9 54:8 53:8 51:9
 
