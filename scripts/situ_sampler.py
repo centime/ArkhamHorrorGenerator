@@ -53,24 +53,25 @@ if __name__ == "__main__" :
 		
 
 	if logs_path:
-		logs_file = open(logs_path)
-		logs_json = logs_file.read()
-		if not logs_json : logs_json = '[]'
+		if path.isfile(logs_path) :
+			logs_file = open(logs_path)
+			logs_json = logs_file.read()
+			logs_file.close()
+		else : logs_json = '[]'
 		logs = json.loads(logs_json)
 
 		print('---------------\nRate '+str(len(cards))+' id1:rating1[1-10] id2:rating2[1-10] ...')
-		try :
-			ratings = input() # id1:rating1 id2:rating2 ...
-			ratings = { int(c.split(':')[0]):int(c.split(':')[1]) for c in ratings.split(' ')}
+		
+		logs_init_len = len(logs)
+		for card in cards:
+			logs.append({'text':card, 'rating':-1})
+		
+		edits = input() # id1:rating1 id2:rating2 ...
+		edits = [ e.split(':') for e in edits.split(' ')]
 
-			for i, card in enumerate(cards) :
-				rating = ratings[i] if i in ratings else -1
-				logs.append({'text':card, 'rating':rating})
-			
-		except : 
-			print('Error, samples rated as -1')
-			for card in cards:
-				logs.append({'text':card, 'rating':-1})
 
-		logs_file.close()
+		for edit in edits :
+			logs[logs_init_len+int(edit[0])]['rating'] = int(edit[1])
+
+		
 		open(logs_path,'w').write(json.dumps(logs))

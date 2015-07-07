@@ -93,6 +93,7 @@ Roadmap
 
 Randomly ordered :
 	
+	- Situations dataset : remove trailling "If you do" and the likes
 	- Shuffle dataset prior to training (cuz of a lacking chr-rnn feature regarding init_from)
 	- Situations classification (Which test/challenge is the most suited ?)
 	- size_rnn, layers, ...
