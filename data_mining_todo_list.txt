@@ -1,0 +1,10 @@
+#Attribute cards to locations
+Supervised classification, trained on the original cards of the game.
+Prediction: the objective is to give a card when a location is chosen by players. 
+Our proposal: Generate a bunch of cards and deal it in the places that seem to correspond the most. And generate a second bunch, which will be an 'emergency stack'. If a location stack is empty and the location chosen, choose the card in the emrgency stack that is the most likely the appear in this location (even if it's not the location where it should appear).
+Our need: Be able to give a probability of being from each location for each generated card in the emergency stack.
+The small plus (mon anglais est merdique, alors j'assume) : When dealing the cards between locations, instead of attributing the card systematically to most likely location, attribute it randomly (multinomiale weighted by probabilities given by the classifier).
+
+##Link test and situation
+Supervised classification, input = 'situation' part of the card, target = check type
+Rest would be generated from this primer (concatenation of the situation and check description)
