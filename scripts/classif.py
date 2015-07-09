@@ -3,7 +3,7 @@
 import os
 from collections import OrderedDict
 import numpy as np
-input_dir = '../../arkhamnn/datasets/locations/'
+input_dir = '/home/jonas/Code/arkhamnn/datasets/locations/'
 
 #read datas
 datasets = OrderedDict()
@@ -43,6 +43,13 @@ test_mask = np.logical_not(train_mask)
 
 texte_clf = texte_clf_pipeline.fit(corpus[train_mask], target[train_mask])
 predicted = texte_clf.predict(corpus[test_mask])
+probas = texte_clf.predict_proba(corpus[test_mask])
+plt.xlim(0,1)
+plt.ylim(0,1)
+plt.imshow(probas,interpolation='none',
+            extent=(0,1,0,1),
+            )
+plt.show()
 
 from sklearn import metrics
 print(metrics.classification_report(target[test_mask], predicted))
